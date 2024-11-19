@@ -68,5 +68,14 @@ namespace systemX.Languages.BaseEntity {
                 return ResourceManager.GetString("Id", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Register Date.
+        /// </summary>
+        internal static string RegisterDate {
+            get {
+                return ResourceManager.GetString("RegisterDate", resourceCulture);
+            }
+        }
     }
 }
