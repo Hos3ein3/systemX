@@ -120,4 +120,7 @@
   <data name="Id" xml:space="preserve">
     <value>شناسه</value>
   </data>
+  <data name="RegisterDate" xml:space="preserve">
+    <value>تاریخ ثبت</value>
+  </data>
 </root>
