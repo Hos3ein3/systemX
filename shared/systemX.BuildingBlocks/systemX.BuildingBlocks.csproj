@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+ <ItemGroup>
+    <Folder Include="EventBus\" />
+    <Folder Include="ControllerBinder\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="Logging\" />
+    <Folder Include="Configures\" />
+    <Folder Include="TaskResult\" />
+  </ItemGroup>
+<ItemGroup>
+
+		<PackageReference Include="Mapster" Version="7.4.0" />
+		<PackageReference Include="MediatR" Version="12.4.1" />
+	</ItemGroup>
+
+</Project>

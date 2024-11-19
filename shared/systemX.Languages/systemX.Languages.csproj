@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Update="BaseEntity\Resource.BaseEntity.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resource.BaseEntity.resx</DependentUpon>
+    </Compile>
+    <Compile Update="DataAnnotation\Resource.DataAnnotation.Designer.cs">
+      <DependentUpon>Resource.DataAnnotation.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="TaskResult\Resource.TaskResult.Designer.cs">
+      <DependentUpon>Resource.TaskResult.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="BaseEntity\Resource.BaseEntity.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.BaseEntity.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="DataAnnotation\Resource.DataAnnotation.resx">
+      <LastGenOutput>Resource.DataAnnotation.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="TaskResult\Resource.TaskResult.resx">
+      <LastGenOutput>Resource.TaskResult.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
